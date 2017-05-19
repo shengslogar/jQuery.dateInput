@@ -39,7 +39,7 @@ Version History
 0.0.1
 
 -   Initial version - highly untested (20170420)
-
+-   Tweaked styles, hid weekend dates instead of just disabling them and published repo :) (20170518)
 
 License
 -------

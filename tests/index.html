@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery.dateInput test</title>
+        <style type="text/css">
+            body {
+                font: 14px monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>jQuery.dateInput test</h1>
+
+        <input type="date" id="test1" value="2017-04-05" min="2016-04-02" max="2017-04-30">
+        <input type="date" id="test2" value="2017-04-05" min="2014-05-02" max="2020-03-10">
+
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../jquery.dateinput.css">
+        <script type="text/javascript" src="../jquery.dateinput.js"></script>
+        <script type="text/javascript">
+            $('#test1').dateInput(true);
+            $('#test2').dateInput();
+        </script>
+    </body>
+</html>
